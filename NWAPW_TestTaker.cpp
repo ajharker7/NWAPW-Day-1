@@ -11,7 +11,13 @@ int main(){
     }
     if(userIn == "test"){
     //Put take the test here
-
+        ifstream file("Questions.txt");
+        if(file.is_open()) {
+            string myArray[5];
+            for(int i = 0; i < 5; ++i) {
+                file >> myArray[i];
+            }
+        }
     }
     else if(userIn == "create"){
     //Put create questions here
