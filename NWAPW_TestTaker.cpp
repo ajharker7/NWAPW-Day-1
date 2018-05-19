@@ -17,13 +17,13 @@ int main(){
     if(userIn == "test"){
     //Put take the test here
         ifstream file("Questions.txt");
-        int currentQuestion = 0;
+        int currentQuestion = 1;
         string line1[30];
         if(file.is_open()) {
             while(!file.eof())
               {
                 getline(file,line1[currentQuestion],'\n');
-                cout<<"1."<<line1[currentQuestion]<<"\n";
+                cout<<currentQuestion<<". "<< line1[currentQuestion] << "\n";
               }
         }
         displayQuestions();
@@ -37,6 +37,7 @@ int main(){
         return 0;
 
     }
+    cout << "\n\nLife is a journey, not a destination.\n\n";
 }
 
 void displayQuestions(){
