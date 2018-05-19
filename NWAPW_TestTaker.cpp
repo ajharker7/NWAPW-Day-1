@@ -1,4 +1,5 @@
 #include<iostream>
+#include<fstream>
 using namespace std;
 
 int main(){
@@ -22,4 +23,9 @@ int main(){
     //Put create questions here
 
     }
+
+    outfile.open("test.txt", std::ios_base::app);
+    outfile << "Data";
+    return 0;
+
 }
