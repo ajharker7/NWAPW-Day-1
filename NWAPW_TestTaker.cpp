@@ -23,7 +23,7 @@ int main(){
     else if(userIn == "create"){
         ofstream outfile("Questions.txt");
         cout << "Please enter your question\n> ";
-        outfile.open("test.txt", std::ios_base::app);
+        outfile.open("Questions.txt", std::ios_base::app);
         outfile << "Data";
         return 0;
 
