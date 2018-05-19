@@ -8,4 +8,12 @@ int main(){
         cout << "Type create to write a test problem." << endl;
         cin >> userIn;
     }
+    if(userIn == "test"){
+    //Put take the test here
+
+    }
+    else if(userIn == "create"){
+    //Put create questions here
+
+    }
 }
