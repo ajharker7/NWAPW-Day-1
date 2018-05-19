@@ -16,16 +16,19 @@ int main(){
             string myArray[5];
             for(int i = 0; i < 5; ++i) {
                 file >> myArray[i];
+                cout << myArray[i];
             }
         }
     }
     else if(userIn == "create"){
-    //Put create questions here
+        ofstream outfile("Questions.txt");
+        cout << "Please enter your question\n> ";
+        outfile.open("test.txt", std::ios_base::app);
+        outfile << "Data";
+        return 0;
 
     }
 
-    outfile.open("test.txt", std::ios_base::app);
-    outfile << "Data";
-    return 0;
+
 
 }
