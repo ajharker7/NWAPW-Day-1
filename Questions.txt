@@ -11,10 +11,10 @@ What's the absolute value of -7?
 14
 
 How many people are currently living on earth?
-A)8 billion
-B)8.3 billion
-C)7 billion
-D)7.6 billion
+8 billion
+8.3 billion
+7 billion
+7.6 billion
 
 What is the atomic mass of NaCl?
 57.5 g/mol
